@@ -1,0 +1,24 @@
+.groups-container{
+    background-color: #242731;
+    padding: 5rem;
+    
+}
+
+.groups-heading{
+    font-size: 4rem;
+    color: white;
+    font-family: Barlow, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 900;
+
+  
+}
+
+.groups-subheading{
+
+    font-size: 1rem;
+    font-weight: 400;
+    background: linear-gradient(to right, #ff2238, #4285f4);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

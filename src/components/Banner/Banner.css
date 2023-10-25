@@ -1,0 +1,137 @@
+/* Banner.css */
+
+.banner {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+}
+
+.banner-left,
+.banner-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner-left {
+    justify-content: center;
+    align-items: left;
+    padding: 10%;
+}
+
+.banner-buttons button {
+    margin-right: 10px;
+}
+
+
+
+.banner h5 {
+    color: #ff2238;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+.banner h1 {
+    font-size: 85px;
+    font-weight: 900;
+    color: white;
+    font-style: normal;
+}
+
+.banner h6 {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.banner button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+}
+
+.btn-register {
+    background-color: #DF204D;
+    color: white;
+}
+
+.btn-discover {
+    color: #DF204D;
+
+}
+
+.btn-discover:hover {
+    color: white;
+    background-color: #DF204D;
+    border: 1px solid white;
+
+}
+
+
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 30rem;
+    margin-right: 2rem;
+  }
+  
+  .social-icons .icon {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .circle-container {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+ 
+  
+
+.discord-icon {
+    display: flex;
+    align-self: flex-end;
+    background-color: #9400D3;
+    padding: 1rem;
+    width: 14rem;
+    transition: width 0.2s ease-in;
+    margin-top: 1rem;
+    cursor: pointer;
+    
+}
+
+.discord-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.discord-icon:hover{
+    width: 16rem;
+}
+
+.discord-icon .icon{
+    margin-right: 1rem;
+    color: white;
+    font-size: 25px;
+}
+.banner-right{
+    position: relative;
+}
